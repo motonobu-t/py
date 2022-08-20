@@ -35,20 +35,11 @@ class excel:
         return
 
 class plantuml:
-    # cps_str = "CPS"
-    # ipodut_str = "iPodUT"
-    # ipoddt_str = "iPodDT"
-    # SPI_str = "SPI"
-
-    # syncline_str = "->"
-    # asyncline_str = "->>"
-    # resyncline_str = "<-"
-    # reasyncline_str = "<<-"
 
     component_str =\
         ["CPS",
-         "iPodUT",
-         "iPodDT",
+         "i**UT",
+         "i**DT",
          "SPI"]
 
     msgline = \
